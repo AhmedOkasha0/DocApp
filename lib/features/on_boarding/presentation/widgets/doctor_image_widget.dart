@@ -18,7 +18,6 @@ class _DoctorImageState extends State<DoctorImage> {
       children: [
         Image.asset(ImageConstants.onBoardingBackGround),
         Container(
-          
           foregroundDecoration: BoxDecoration(
             gradient: LinearGradient(
                 colors: [
@@ -37,7 +36,11 @@ class _DoctorImageState extends State<DoctorImage> {
           right: 0,
           child: Text(
             "Best Doctor\nAppointment App",
-            style: AppStyles.textStyle(size: 32, weight: FontWeight.w700,color: AppColors.c247CFF,),
+            style: AppStyles.textStyle(
+              size: 32,
+              weight: FontWeight.w700,
+              color: AppColors.c247CFF,
+            ),
             textAlign: TextAlign.center,
           ),
         )
