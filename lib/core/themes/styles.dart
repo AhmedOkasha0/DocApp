@@ -24,6 +24,8 @@ class AppStyles {
         fontStyle: isItalic! ? FontStyle.italic : null,
         decoration: decoration,
         shadows: shadow,
-        decorationColor: decorationColor);
+        decorationColor: decorationColor,
+    );
+        
   }
 }
